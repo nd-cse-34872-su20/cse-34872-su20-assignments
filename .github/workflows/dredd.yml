@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-
-    runs-on: pbui/cse-34872-su20-assignments
-
+    container: pbui/cse-34872-su20-assignments
     steps:
     - uses: actions/checkout@v2
     - name: test
