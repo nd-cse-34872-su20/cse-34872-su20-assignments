@@ -80,11 +80,12 @@ def submit_code(assignment, path):
 
 # Main Execution
 
-# Add GitLab branch
-try:
-    add_assignment(os.environ['CI_BUILD_REF_NAME'])
-except KeyError:
-    pass
+# Add GitLab/GitHub branch
+for variable in ['CI_BUILD_REF_NAME', 'GITHUB_HEAD_REF']:
+    try:
+        add_assignment(os.environ[variable])
+    except KeyError:
+        pass
 
 # Add local git branch
 try:

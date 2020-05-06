@@ -12,5 +12,5 @@ jobs:
     container: pbui/cse-34872-su20-assignments
     steps:
     - uses: actions/checkout@v2
-    - name: test
-      run:  make BRANCH=${GITHUB_REF##*/} test
+    - name: Test
+      run:  make BRANCH=${GITHUB_HEAD_REF} test
