@@ -1,5 +1,7 @@
 # CSE 34872 Programming Challenges (Summer 2020) - Assignments
 
+![Dredd](https://github.com/nd-cse-34872-su20/cse-34872-su20-assignments/workflows/Dredd/badge.svg)
+
 This is the [CSE-34872-SU20] reading and challenge assignments repository for:
 
 - **Name**:     Domer McDomerson
