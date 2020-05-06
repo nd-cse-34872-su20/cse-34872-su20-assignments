@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest    
     container: pbui/cse-34872-su20-assignments
     steps:
     - uses: actions/checkout@v2
