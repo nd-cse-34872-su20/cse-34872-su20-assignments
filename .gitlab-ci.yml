@@ -1,0 +1,4 @@
+image: pbui/cse-30872-fa19-assignments
+test:
+  script:
+    - make BRANCH=$CI_BUILD_REF_NAME test
