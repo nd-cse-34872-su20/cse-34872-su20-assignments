@@ -12,8 +12,6 @@ This is the [CSE-34872-SU20] reading and challenge assignments repository for:
 **Readings** are due **before** class on the **Monday** of each week and are
 each worth **4** points.
 
-- [Reading 00](https://www3.nd.edu/~pbui/teaching/cse.34872.su20/reading00.html)
-
 - [Reading 01](https://www3.nd.edu/~pbui/teaching/cse.34872.su20/reading01.html)
 
 - [Reading 02](https://www3.nd.edu/~pbui/teaching/cse.34872.su20/reading02.html)
@@ -32,8 +30,6 @@ each worth **4** points.
 
 **Challenges** are due at **noon** on the **Saturday** of each week.  Each
 **Challenge** is worth **6** points for correctness and **2** points for style.
-
-- [Challenge 00](https://www3.nd.edu/~pbui/teaching/cse.34872.su20/challenge00.html)
 
 - [Challenge 01](https://www3.nd.edu/~pbui/teaching/cse.34872.su20/challenge01.html)
 
