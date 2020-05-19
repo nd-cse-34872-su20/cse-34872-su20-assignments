@@ -12,5 +12,9 @@ jobs:
     container: pbui/cse-34872-su20-assignments
     steps:
     - uses: actions/checkout@v2
-    - name: Test
+
+    - name: Linting
+      run:  .scripts/lint.sh ${GITHUB_HEAD_REF}/program.*
+
+    - name: Testing
       run:  make BRANCH=${GITHUB_HEAD_REF} test

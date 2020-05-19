@@ -7,3 +7,6 @@ RUN	    apk update
 
 # Run-time dependencies
 RUN	    apk add make python3 py3-tornado py3-requests py3-yaml
+
+# Linting
+Run	    pip3 install pylint cpplint
