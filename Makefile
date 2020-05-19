@@ -3,6 +3,7 @@ BRANCH?=	$(shell git rev-parse --abbrev-ref HEAD)
 all:
 
 test:		
+	@echo $(BRANCH)
 	@[ "$(BRANCH)" = "master" ] \
 	    || { (echo "$(BRANCH)" | grep -q reading) && .scripts/submit.py; } \
 	    || { (echo "$(BRANCH)" | grep -q challenge) && .scripts/submit.py; } \
