@@ -12,7 +12,7 @@ import yaml
 
 ASSIGNMENTS     = {}
 DREDD_QUIZ_URL  = 'https://dredd.h4x0r.space/quiz/cse-34872-su20/'
-DREDD_QUIZ_MAX  = 2.0
+DREDD_QUIZ_MAX  = 4.0
 if bool(os.environ.get('DEBUG', False)):
     DREDD_CODE_URL = 'https://dredd.h4x0r.space/debug/cse-34872-su20/'
 else:
